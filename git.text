@@ -1,0 +1,8 @@
+# クーロン
+git clone git@github.com:tomo-john/test.git
+→クーロンしたいディレクトリに移動
+→リポジトリ名でディレクトリが作成される
+
+# プル
+git pull origin main
+ 
