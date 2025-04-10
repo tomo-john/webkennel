@@ -1,4 +1,4 @@
 # test
 
-html, css, javascriptテスト用
+:dog: html, css, javascriptテスト用 :dog:
 
