@@ -1,3 +1,11 @@
+// ヘッダー読み込み
+fetch('header.html')
+	.then(res => res.text())
+	.then(data => {
+		document.getElementById('header').innerHTML = data;
+	});
+
+// アイコン動かす
 document.addEventListener('DOMContentLoaded', function () {
   const icon = document.getElementById('dog-icon');
 
