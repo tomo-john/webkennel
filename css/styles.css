@@ -1,0 +1,102 @@
+/* styles.css */
+
+header {
+  background-color: #ffc0cb;
+  color: #8b4513;
+  padding: 10px;
+  text-align: left;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+.header-title {
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+footer {
+  background-color: #555;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+main {
+  margin-top: 60px; /* ヘッダーの高さ分をここに追加！ */
+  margin-bottom: 60px; /* フッターと被らないように余白 */
+  display: flex;
+  flex-direction: column;    /* 要素を縦方向に並べる */
+  justify-content: center;  /* 横方向中央 */
+  align-items: center;      /* 縦方向中央 */
+  min-height: calc(100vh - 120px); /* ヘッダーとフッター分を引いた高さ */
+}
+
+body {
+  margin: 0;                /* デフォルトの余白をなくす */
+  font-family: Arial, sans-serif;
+}
+
+/* pタグ（段落）に改行を加える */
+p {
+  margin-bottom: 20px; /* 下に余白を追加して、次の要素と間隔を空ける */
+}
+
+/* ボタンに適用するスタイル */
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px; /* ボタンと段落の間に余白を追加 */
+}
+
+button:hover {
+  background-color: #45a049; /* ホバー時の色変更 */
+}
+
+/* 文字サイズや色を変更する */
+h1 {
+  font-size: 36px;
+  color: #333;
+  text-align: center;  /* 文字を中央に */
+}
+
+/* ボタンを横に並べるコンテナ */
+.button-container {
+  display: flex;
+  gap: 10px;          /* ボタン同士の間にすき間 */
+  margin-top: 20px;
+}
+
+/* aタグがボタンと同じ見た目で並ぶように */
+.button-container a {
+  text-decoration: none;  /* 下線を消す */
+}
+
+.icon-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#dog-icon {
+  font-size: 50px;
+  color: #ff9900;
+  transition: transform 0.5s ease; /* アニメーション用 */
+  cursor: pointer;
+}
+
+#dog-icon.move {
+  transform: translateX(100px); /* 横に100px移動 */
+}
+
