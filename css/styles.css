@@ -14,12 +14,34 @@ header {
 	z-index: 1000;
 }
 
+.header-title {
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 10px;
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-contents {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
 .header-contents .nav-list {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .header-contents .nav-list li a {
@@ -30,12 +52,6 @@ header {
 
 .header-contents .nav-list li a:hover {
   color: #ff6600;
-}
-
-.header-title {
-	font-size: 24px;
-	font-weight: bold;
-	padding-left: 10px;
 }
 
 .home-icon {
