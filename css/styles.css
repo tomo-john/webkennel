@@ -4,12 +4,32 @@ header {
   background-color: #ffc0cb;
   color: #8b4513;
   padding: 10px;
+  display: fles;
+  justify-content: space-between;
   text-align: left;
 	width: 100%;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 1000;
+}
+
+.header-contents .nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.header-contents .nav-list li a {
+  color: #8b4513;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-contents .nav-list li a:hover {
+  color: #ff6600;
 }
 
 .header-title {
