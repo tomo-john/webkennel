@@ -1,4 +1,4 @@
-# test
+# webkennel
 
 :dog: html, css, javascriptテスト用 :dog:
 
@@ -8,7 +8,7 @@
 
 # memo
 
-## GitHub Pages
+### GitHub Pages
 
 - リポジトリにindex.htmlとか配置する
 - [配置したリポジトリ](https://github.com/tomo-john/webkennel)にアクセスし、上側メニューの`Settings`
