@@ -4,9 +4,16 @@
 
 [GitHub Pages](https://tomo-john.github.io/webkennel/index.html)
 
+## ベン図シュミレーター(GitHub Pages)
+
+- 2025/8/14
+- ベン図を視覚的に試す
+- HTML, CSS, Javascriptのみ
+- 図形はHTMLにSVG埋め込みで作成
+
 ---
 
-# memo
+## memo
 
 ### GitHub Pages
 
