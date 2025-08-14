@@ -1,0 +1,96 @@
+/* 基本的なスタイル */
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Flexboxで中央揃えにするためのコンテナ */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px;
+    border: 1px solid #ccc;
+}
+
+/* 枠 */
+.fill-rect {
+    stroke: none;
+    fill: transparent;
+}
+
+.stroke-rect {
+    fill: none;
+    stroke: black;
+    stroke-width: 2;
+}
+
+/* 塗り専用円の基本スタイル */
+.fill-a, .fill-b, .fill-and {
+    stroke: none;
+    fill: transparent;
+    transition: fill 0.3s ease;
+}
+
+/* 枠線専用円の基本スタイル */
+.stroke-a, .stroke-b, .stroke-and {
+    fill: none;
+    stroke: black;
+    stroke-width: 2;
+}
+
+/* Aボタン */
+.show-a .fill-a {
+    fill: #ffd1dc;
+}
+
+/* Bボタン */
+.show-b .fill-b {
+    fill: #ffd1dc;
+}
+
+/* ANDボタン */
+.show-and .fill-and {
+    fill: #ffd1dc;
+}
+
+/* ORボタン */
+.show-or .fill-a,
+.show-or .fill-b {
+    fill: #ffd1dc;
+}
+
+/* XORボタン */
+.show-xor .fill-a,
+.show-xor .fill-b {
+    fill: #ffd1dc;
+}
+
+.show-xor .fill-and {
+    fill: #f0f0f0;
+}
+
+/* ボタンのスタイル */
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+    background: #fff;
+    cursor: pointer;
+    border: 1px solid #333;
+    border-radius: 5px;
+    transition: all 0.5s 0s ease;
+}
+
+button:hover {
+    background: #333;
+    color: #fff;
+}
+
